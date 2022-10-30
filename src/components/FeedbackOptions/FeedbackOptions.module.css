@@ -1,0 +1,16 @@
+.btn {
+    border-color: transparent;
+    margin-right: 5px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: var(--brandColor);
+    cursor: pointer;
+    transition: background-color, transform 250ms cubic-bezier(.4, 0, .2, 1);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(132, 170, 167);
+    transform: scale(1.05);
+}
